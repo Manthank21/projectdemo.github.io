@@ -1,0 +1,265 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+body{
+  font-family:monospace;
+  /* background: linear-gradient(120deg,#2980b9,#8e44ad); */
+  
+}
+.main {
+  /* background: linear-gradient(120deg,#2980b9,#8e44ad); */
+  text-align: center;
+  justify-content: center;
+  display: flex; 
+  padding-top: 40px;
+  padding-bottom: 200px;
+  background-color: #e1e3eb;
+  min-height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+
+}
+.sub-main {
+  display: flex;
+  justify-content: center;
+  height: 460px;
+  width: 29%;
+  box-shadow: 3px 3px 3px 3px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 70px; 
+  background-color: white;
+  position:relative;
+  top: 10px;
+  /* right: 20px; */
+  /* left: 30px; */
+}
+
+
+.imgs {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+  }
+.container-image {
+  background-color: rgb(223, 221, 221); 
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 115px;
+  width: 115px;
+}
+.profile {
+  height: 115px;
+  width: 115px;
+  border-radius: 0px;
+} 
+
+input{
+    width: 230px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px rgb(195, 188, 188);
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.email{
+    height: 35px;
+    width: 43px;
+    position: absolute;
+    padding: 15px 0 0 25px;
+}
+
+.name{
+    padding-left: 30px;
+    font-size: 17px;
+    width: 250px;
+}
+.second-input{
+    padding-top: 15px;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 60px;
+    background-color: #0d99eb;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.login-button{
+    padding-top: 25px;
+   
+}
+
+.link{
+    font-size: 15px;
+    font-weight: 400;
+}
+ a{
+     color: blue;
+ }
+
+
+ .advert{
+   width: 890px;
+   height: 550px;
+   margin: 0 auto;
+   
+ }
+
+ .addvert_image{
+  height: 560px;
+  bottom: 10px;
+  width: 830px;
+  left: 20px;
+  right: 20px;
+  position:relative;
+  padding: 1px 0 0 2px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
+
+}
+.ssuper{
+  margin: 0px;
+  padding: 0px;
+  /* background-image: url('E:\VS CODE\React Harry\demo\public\signin7.jpg'); */
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  width: 100%;
+  height: 100%;
+}
+
+.Fsuper{
+  margin: 0px;
+  padding: 0px;
+  background-image: url('E:\VS CODE\React Harry\demo\public\signin6.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  width: 100%;
+  height: 100%;
+}
+.smain{
+  width: 1200px;
+  margin: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  min-height: 100%;
+  /* width: 100%; */
+  overflow-x: hidden;
+  background-repeat:no-repeat;
+  
+}
+
+.rightsidesign{
+ left: 700px;
+ margin: 10px;
+ padding: 20px;
+ position: relative; 
+ min-height: 100%;
+  width: 100%;
+}
+
+.radiobtn{
+  left: 10px;
+  right :  5px;
+  width: 0px;
+  margin: 5px;
+  padding: 1px;
+  size-adjust: 1px;
+  top: 0px;
+}
+
+.slogin{
+  /* background-color: rgb(35, 207, 219); */
+  border-radius: 10px;
+  position: relative;
+  size: 10px;
+  left: 880px;
+  right: 100px;
+  bottom: 68px;
+   
+}
+.Flogin{
+  border-radius: 10px;
+  position:relative;
+  size: 100px;
+  left: 270px;
+  right: 300px;
+  bottom: px;
+  top: 135px;
+}
+
+/* Resposnsive  */
+
+@media all and (max-width:500px){
+  
+    .sub-main {
+        display: flex;
+        justify-content: center;
+        height: 460px;
+        width: 69%;
+        box-shadow: 3px 3px 3px 3px rgb(207, 207, 207);
+        padding-top: 30px;
+        border-radius: 70px; 
+        background-color: white;
+        position:relative;
+        top: 0px;
+        /* right: 20px; */
+        /* left: 30px; */
+      }
+
+      .main {
+        
+        text-align: center;
+        justify-content: center;
+        display: flex; 
+        padding-top: 190px;
+        padding-bottom: 200px;
+        background-color: #e1e3eb;
+      }
+  /* .addvert_image{
+    height: 230px;
+    bottom: 20px;
+    top: 500px;
+    width: 415px;
+    left: 10px;
+    right: 100px;
+    position:relative;
+    padding: 1px 0 0 2px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
+  } */
+
+  .smain{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right: 70px;
+    min-height: 100%;
+    /* width: 100%; */
+    overflow-x: hidden;
+    
+  }
+  
+  .rightsidesign{
+   left: 10px;
+   right: 150px;
+   margin: 0px;
+   padding: 10px;
+   position: relative; 
+   top: 800px;
+   width:330px;
+   /* min-height: 100%;
+    width: 100%; */
+  }
+  
+}
+
