@@ -200,7 +200,7 @@ button{
 @media all and (max-width:500px){
   
     .sub-main {
-        display: flex;
+        display: flex;zzzz
         justify-content: center;
         height: 460px;
         width: 69%;
